@@ -1,0 +1,28 @@
+{
+	"time": {
+		"default": [
+			"It is {}"
+		],
+		"short": [
+			"{}"
+		]
+	},
+	"date": {
+		"default": [
+			"Today's date is {}"
+		],
+		"short": [
+			"{}"
+		]
+	},
+	"day": {
+		"default": [
+			"Today is {}"
+		]
+	},
+	"year": {
+		"default": [
+			"{}"
+		]
+	}
+}
