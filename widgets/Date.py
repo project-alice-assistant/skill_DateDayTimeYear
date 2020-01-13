@@ -1,11 +1,12 @@
 import sqlite3
 
 from core.base.model.Widget import Widget
+from core.base.model.widgetSizes import WidgetSizes
 
 
 class Date(Widget):
 
-	SIZE = 'w_small_wide'
+	SIZE = WidgetSizes.w_small_wide
 	OPTIONS = {
 		'format': 'dd/mm/yyyy'
 	}
