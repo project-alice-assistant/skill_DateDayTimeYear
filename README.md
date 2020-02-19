@@ -13,7 +13,7 @@ wget http://skills.projectalice.ch/DateDayTimeYear \
 ### Description
 Ask for the time, date, day and year
 
-- Version: 1.0.20
+- Version: 1.0.21
 - Author: Psycho
 - Maintainers:
   - maxbachmann

@@ -157,7 +157,7 @@ class DayTimeFr(DayTime):
 
 
 	def __str__(self) -> str:
-		if self._minutes > 30:
+		if self._minutes > 30 and self._minutes % 5 == 0:
 			self.hours += 1
 
 		hours = self._stringifyHours()
@@ -175,7 +175,10 @@ class DayTimeFr(DayTime):
 			answer = f'{hours} moins quart'
 
 		elif self._minutes > 30:
-			answer = f'{hours} moins {60 - self._minutes}'
+			if self._minutes % 5 == 0:
+				answer = f'{hours} moins {60 - self._minutes}'
+			else:
+				answer = f'{hours} {self._minutes}'
 
 		else:
 			answer = f'{hours} {self._minutes}'
