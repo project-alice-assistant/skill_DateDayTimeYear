@@ -13,14 +13,15 @@ wget http://skills.projectalice.ch/DateDayTimeYear \
 ### Description
 Ask for the time, date, day and year
 
-- Version: 1.0.22
+- Version: 1.0.23
 - Author: Psycho
 - Maintainers:
   - maxbachmann
   - SkyHyperV
-- Alice minimum version: 1.0.0-a4
+- Alice minimum version: 1.0.0-a6
 - Conditions:
   - en
   - fr
   - de
+  - it
 - Requirements: Babel
