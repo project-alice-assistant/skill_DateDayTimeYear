@@ -1,0 +1,101 @@
+{
+	"skill": "DateDayTimeYear",
+	"icon": "time",
+	"description": "L'utente chiede ora, data o il giorno dell'anno",
+	"slotTypes": [],
+	"intents": [
+		{
+			"name": "GetDay",
+			"description": "L'utente chiede che giorno è della settimana",
+			"enabledByDefault": true,
+			"utterances": [
+				"sai che giorno è",
+				"per favore mi dici che giorno è",
+				"puoi dirmi che giorno è",
+				"puoi dirmi per favore che giorno è",
+				"per favore mi dici in che giorno siamo",
+				"mi diresti in che giorno siamo",
+				"mi dici che giorno è oggi",
+				"mi diresti il giorno",
+				"per piacere dimmi il giorno",
+				"mi dici il giorno della settimana per piacere",
+				"puoi dirmi il giorno della settimana",
+				"che giorno è per piacere",
+				"per favore che giorno è",
+				"che giorno è oggi",
+				"in che giorno siamo",
+				"qual'è il giorno",
+				"per favore in che giorno siamo",
+				"qual'è il giorno della settimana"
+			],
+			"slots": []
+		},
+		{
+			"name": "GetDate",
+			"description": "L'utente chiede la data",
+			"enabledByDefault": true,
+			"utterances": [
+				"sai qual'è la data di oggi",
+				"sai qual'è la data",
+				"qual'è la data",
+				"per favore dimmi la data",
+				"mi diresti la data",
+				"puoi dirmi la data per piacere",
+				"dimmi la data per favore",
+				"per favore qual'è la data",
+				"potresti dirmi la data di oggi",
+				"mi diresti la data di oggi",
+				"per favore qual'è la data",
+				"in che data siamo",
+				"la data per favore",
+				"per favore qual'è la data",
+				"che data è oggi",
+				"qual'è la data di oggi",
+				"dammi la data",
+				"mi dai la data"
+			],
+			"slots": []
+		},
+		{
+			"name": "GetTime",
+			"description": "L'utente chiede l'ora",
+			"enabledByDefault": true,
+			"utterances": [
+				"per favore mi dici l'ora",
+				"posso chiederti che ore sono",
+				"mi diresti l'ora",
+				"per piacere mi dici l'ora",
+				"mi daresti l'orario per favore",
+				"per cortesia che ore sono",
+				"per favore mi diresti l'ora",
+				"potresti darmi l'orario",
+				"che ore sono ora",
+				"l'ora per favore",
+				"per favore l'ora",
+				"per piacere dimmi l'ora",
+				"dammi l'ora per piacere",
+				"dimmi l'orario per piacere",
+				"dimmi che ore sono",
+				"sai dirmi l'ora",
+				"che ore sono",
+				"qual'è l'orario"
+			],
+			"slots": []
+		},
+		{
+			"name": "GetYear",
+			"description": "L'utente chiede l'anno",
+			"enabledByDefault": true,
+			"utterances": [
+				"puoi dirmi l'anno",
+				"qual'è l'anno corrente",
+				"sai dirmi in che anno siamo",
+				"per favore, dimmi che anno è",
+				"in che anno siamo",
+				"che anno è",
+				"dimmi l'anno"
+			],
+			"slots": []
+		}
+	]
+}
