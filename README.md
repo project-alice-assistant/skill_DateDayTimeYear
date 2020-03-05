@@ -2,14 +2,6 @@
 
 [![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_DateDayTimeYear/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_DateDayTimeYear/pipelines/latest)
 
-### Download
-
-##### > WGET method
-```bash
-wget http://skills.projectalice.ch/DateDayTimeYear \
--O ~/ProjectAlice/system/skillInstallTickets/DateDayTimeYear.install
-```
-
 ### Description
 Ask for the time, date, day and year
 
