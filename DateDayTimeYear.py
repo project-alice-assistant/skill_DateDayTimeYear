@@ -199,23 +199,23 @@ class DateDayTimeYear(AliceSkill):
 		else:
 			dayTime = DayTime(datetime.now())
 
-		self.endDialog(session.sessionId, self.TalkManager.randomTalk('time').format(str(dayTime)))
+		self.endDialog(session.sessionId, self.randomTalk(text='time', replace=[str(dayTime)]))
 
 
 	@IntentHandler('GetDate')
 	def dateIntent(self, session: DialogSession):
 		# for english defaults to en_US -> 'November 4, 2019' instead of 4 November 2019 in en_GB
 		date = format_date(datetime.now(), format='long', locale=self.LanguageManager.activeLanguage)
-		self.endDialog(session.sessionId, self.TalkManager.randomTalk('date').format(date))
+		self.endDialog(session.sessionId, self.randomTalk(text='date', replace=[date]))
 
 
 	@IntentHandler('GetDay')
 	def dayIntent(self, session: DialogSession):
 		day = format_date(datetime.now(), "EEEE", locale=self.LanguageManager.activeLanguage)
-		self.endDialog(session.sessionId, self.TalkManager.randomTalk('day').format(day))
+		self.endDialog(session.sessionId, self.randomTalk(text='day', replace=[day]))
 
 
 	@IntentHandler('GetYear')
 	def yearIntent(self, session: DialogSession):
 		year = datetime.now().strftime('%Y')
-		self.endDialog(session.sessionId, self.TalkManager.randomTalk('year').format(year))
+		self.endDialog(session.sessionId, self.randomTalk(text='year', replace=[year]))
