@@ -1,7 +1,7 @@
 {
 	"name": "DateDayTimeYear",
 	"version": "1.0.24",
-	"icon": "fab fa-battle-net",
+	"icon": "far fa-clock",
 	"category": "assistance",
 	"author": "Psychokiller1888",
 	"maintainers": [
