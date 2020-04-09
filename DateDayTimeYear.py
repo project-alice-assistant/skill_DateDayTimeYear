@@ -8,9 +8,9 @@ from core.dialog.model.DialogSession import DialogSession
 from core.util.Decorators import IntentHandler
 
 class DayTime:
-	def __init__(self, dt: datetime):
-		self._hours = dt.hour
-		self._minutes = dt.minute
+	def __init__(self, dateTimeObject: datetime):
+		self._hours = dateTimeObject.hour
+		self._minutes = dateTimeObject.minute
 
 
 	@property
