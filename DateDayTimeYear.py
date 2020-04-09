@@ -14,7 +14,7 @@ class DayTime:
 
 
 	@property
-	def hours12(self) -> int:
+	def hoursTwelve(self) -> int:
 		return self._hours % 12 or 12
 
 
@@ -34,7 +34,7 @@ class DayTime:
 
 
 	def __str__(self) -> str:
-		return f'{self.hours12} {self._minutes}'
+		return f'{self.hoursTwelve} {self._minutes}'
 
 
 class DayTimeEn(DayTime):
@@ -44,7 +44,7 @@ class DayTimeEn(DayTime):
 		if self._hours == 0:
 			return 'midnight'
 
-		return f"{self.hours12} o'clock"
+		return f"{self.hoursTwelve} o'clock"
 
 
 	def __str__(self) -> str:
@@ -52,20 +52,20 @@ class DayTimeEn(DayTime):
 			answer = self._stringifyFullHours()
 
 		elif self._minutes < 10:
-			answer = f'{self.hours12} o {self._minutes}'
+			answer = f'{self.hoursTwelve} o {self._minutes}'
 
 		elif self._minutes == 15:
-			answer = f'quarter past {self.hours12}'
+			answer = f'quarter past {self.hoursTwelve}'
 
 		elif self._minutes == 30:
-			answer = f'half past {self.hours12}'
+			answer = f'half past {self.hoursTwelve}'
 
 		elif self._minutes == 45:
 			self.hours += 1
-			answer = f'quarter to {self.hours12}'
+			answer = f'quarter to {self.hoursTwelve}'
 
 		else:
-			answer = f'{self.hours12} {self._minutes}'
+			answer = f'{self.hoursTwelve} {self._minutes}'
 
 		return answer
 
@@ -77,7 +77,7 @@ class DayTimeDe(DayTime):
 		if self._hours == 0:
 			return 'Mitternacht'
 
-		return f'{self._numberFixup(self.hours12)}'
+		return f'{self._numberFixup(self.hoursTwelve)}'
 
 
 	@staticmethod
@@ -100,44 +100,44 @@ class DayTimeDe(DayTime):
 
 		# when not a 5min step e.g. 6:21 -> '6 Uhr 21'
 		if self._minutes % 5:
-			answer = f'{self.hours12} Uhr {self._numberFixup(self._minutes)}'
+			answer = f'{self.hoursTwelve} Uhr {self._numberFixup(self._minutes)}'
 
 		# e.g. 6:15 is 'Viertel nach 6'
 		# in south germany 'viertel 7' is used aswell, but it confuses many north german people
 		# whether this is 6:15 or 6:45 -> not used here
 		elif self._minutes == 15:
-			answer = f'Viertel nach {self._numberFixup(self.hours12)}'
+			answer = f'Viertel nach {self._numberFixup(self.hoursTwelve)}'
 
 		# 5 min steps 5, 10, 20 are spoken relative to the current hour
 		elif self._minutes <= 20:
-			answer = f'{self._minutes} nach {self._numberFixup(self.hours12)}'
+			answer = f'{self._minutes} nach {self._numberFixup(self.hoursTwelve)}'
 
 		# e.g. 6:25 is spoken relative to the half hour '5 vor halb 7'
 		elif self._minutes == 25:
 			self.hours += 1
-			answer = f'5 vor halb {self._numberFixup(self.hours12)}'
+			answer = f'5 vor halb {self._numberFixup(self.hoursTwelve)}'
 
 		# e.g. 6:30 is usually spoken as 'halb 7'
 		elif self._minutes == 30:
 			self.hours += 1
-			answer = f'halb {self._numberFixup(self.hours12)}'
+			answer = f'halb {self._numberFixup(self.hoursTwelve)}'
 
 		# e.g. 6:35 is spoken relative to the half hour '5 nach halb 7'
 		elif self._minutes == 35:
 			self.hours += 1
-			answer = f'5 nach halb {self._numberFixup(self.hours12)}'
+			answer = f'5 nach halb {self._numberFixup(self.hoursTwelve)}'
 
 		# e.g. 6:45 is 'Viertel vor 7'
 		# in south germany 'dreiviertel 7' is used aswell, but it confuses many north german people
 		# whether this is 6:45 or 6:15 -> not used here
 		elif self._minutes == 45:
 			self.hours += 1
-			answer = f'Viertel vor {self._numberFixup(self.hours12)}'
+			answer = f'Viertel vor {self._numberFixup(self.hoursTwelve)}'
 
 		# 5 min steps 40, 50, 55 are spoken relative to the next full hour
 		else:
 			self.hours += 1
-			answer = f'{60 - self._minutes} vor {self._numberFixup(self.hours12)}'
+			answer = f'{60 - self._minutes} vor {self._numberFixup(self.hoursTwelve)}'
 
 		#TODO add config option whether it should use am/pm (in german e.g. morgens, mittags, nachmittags abends nachts)
 		return answer
@@ -149,10 +149,10 @@ class DayTimeFr(DayTime):
 			hour = 'midi'
 		elif self._hours == 0:
 			hour = 'minuit'
-		elif self.hours12 == 1:
-			hour = f'{self.hours12} heure'
+		elif self.hoursTwelve == 1:
+			hour = f'{self.hoursTwelve} heure'
 		else:
-			hour = f'{self.hours12} heures'
+			hour = f'{self.hoursTwelve} heures'
 		return hour
 
 
