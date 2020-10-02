@@ -1,12 +1,9 @@
 {
 	"skill": "DateDayTimeYear",
-	"icon": "time",
-	"description": "L'utilisateur peut demander l'heure, la date, le jour et l'année en cours",
 	"slotTypes": [],
 	"intents": [
 		{
 			"name": "GetDay",
-			"description": "Retourne le jour de la semaine",
 			"enabledByDefault": true,
 			"utterances": [
 				"sais-tu quel jour est-il",
@@ -28,7 +25,6 @@
 		},
 		{
 			"name": "GetDate",
-			"description": "Retourne la date d'aujourd'hui",
 			"enabledByDefault": true,
 			"utterances": [
 				"donne moi la date d'aujourd'hui",
@@ -47,7 +43,6 @@
 		},
 		{
 			"name": "GetTime",
-			"description": "Retourne l'heure actuelle",
 			"enabledByDefault": true,
 			"utterances": [
 				"quelle heure est-il",
@@ -65,7 +60,6 @@
 		},
 		{
 			"name": "GetYear",
-			"description": "Retourne l'année en cours",
 			"enabledByDefault": true,
 			"utterances": [
 				"en quelle année sommes-nous",

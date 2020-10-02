@@ -1,12 +1,9 @@
 {
 	"skill": "DateDayTimeYear",
-	"icon": "time",
-	"description": "User's asking for the time, the date, the day or the year",
 	"slotTypes": [],
 	"intents": [
 		{
 			"name": "GetDay",
-			"description": "User asks for today's weekday",
 			"enabledByDefault": true,
 			"utterances": [
 				"do you know what day it it",
@@ -32,7 +29,6 @@
 		},
 		{
 			"name": "GetDate",
-			"description": "User asks for the date",
 			"enabledByDefault": true,
 			"utterances": [
 				"do you know what is today's date",
@@ -58,7 +54,6 @@
 		},
 		{
 			"name": "GetTime",
-			"description": "User asks for the time",
 			"enabledByDefault": true,
 			"utterances": [
 				"please give me the time",
@@ -84,7 +79,6 @@
 		},
 		{
 			"name": "GetYear",
-			"description": "User asks for the year",
 			"enabledByDefault": true,
 			"utterances": [
 				"can you tell me the year",
