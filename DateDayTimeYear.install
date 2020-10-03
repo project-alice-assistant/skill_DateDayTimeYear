@@ -2,14 +2,13 @@
 	"name": "DateDayTimeYear",
 	"version": "1.0.26",
 	"icon": "far fa-clock",
-	"category": "assistance",
 	"author": "Psychokiller1888",
 	"maintainers": [
 		"maxbachmann",
 		"SkyHyperV"
 	],
 	"desc": "Ask for the time, date, day and year",
-	"aliceMinVersion": "1.0.0-a6",
+	"aliceMinVersion": "1.0.0-b3",
 	"systemRequirements": [],
 	"pipRequirements": ["Babel"],
 	"conditions": {
