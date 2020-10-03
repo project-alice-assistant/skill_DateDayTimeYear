@@ -1,12 +1,9 @@
 {
 	"skill": "DateDayTimeYear",
-	"icon": "time",
-	"description": "L'utente chiede ora, data o il giorno dell'anno",
 	"slotTypes": [],
 	"intents": [
 		{
 			"name": "GetDay",
-			"description": "L'utente chiede che giorno è della settimana",
 			"enabledByDefault": true,
 			"utterances": [
 				"sai che giorno è",
@@ -32,7 +29,6 @@
 		},
 		{
 			"name": "GetDate",
-			"description": "L'utente chiede la data",
 			"enabledByDefault": true,
 			"utterances": [
 				"sai qual'è la data di oggi",
@@ -56,7 +52,6 @@
 		},
 		{
 			"name": "GetTime",
-			"description": "L'utente chiede l'ora",
 			"enabledByDefault": true,
 			"utterances": [
 				"per favore mi dici l'ora",
@@ -82,7 +77,6 @@
 		},
 		{
 			"name": "GetYear",
-			"description": "L'utente chiede l'anno",
 			"enabledByDefault": true,
 			"utterances": [
 				"puoi dirmi l'anno",

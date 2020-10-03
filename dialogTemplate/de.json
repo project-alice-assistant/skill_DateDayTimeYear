@@ -1,12 +1,9 @@
 {
 	"skill": "DateDayTimeYear",
-	"icon": "time",
-	"description": "Nutzer fragt nach der Zeit, dem Datum, dem Wochentag oder dem Jahr",
 	"slotTypes": [],
 	"intents": [
 		{
 			"name": "GetDay",
-			"description": "Nutzer fragt nach dem heutigen Wochentag",
 			"enabledByDefault": true,
 			"utterances": [
 				"Weißt du welcher Tag heute ist",
@@ -37,7 +34,6 @@
 		},
 		{
 			"name": "GetDate",
-			"description": "Nutzer fragt nach dem Datum",
 			"enabledByDefault": true,
 			"utterances": [
 				"Weißt du, was das heutige Datum ist?",
@@ -69,7 +65,6 @@
 		},
 		{
 			"name": "GetTime",
-			"description": "Nutzer fragt nach der Uhrzeit",
 			"enabledByDefault": true,
 			"utterances": [
 				"Bitte gib mir die Uhrzeit.",
@@ -102,7 +97,6 @@
 		},
 		{
 			"name": "GetYear",
-			"description": "Nutzer fragt nach dem Jahr",
 			"enabledByDefault": true,
 			"utterances": [
 				"Kannst du mir das Jahr sagen",
