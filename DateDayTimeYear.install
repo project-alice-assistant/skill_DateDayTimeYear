@@ -1,5 +1,6 @@
 {
     "name": "DateDayTimeYear",
+	"speakableName": "date time functions",
     "version": "1.0.29",
     "icon": "far fa-clock",
     "category": "assistance",
