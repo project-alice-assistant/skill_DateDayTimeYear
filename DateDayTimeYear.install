@@ -1,5 +1,4 @@
 {
-<<<<<<< Updated upstream
     "name": "DateDayTimeYear",
     "speakableName": "date time functions",
     "version": "1.0.30",
@@ -25,25 +24,3 @@
         ]
     }
 }
-=======
-	"name": "DateDayTimeYear",
-	"version": "1.0.23",
-	"icon": "far fa-clock",
-	"author": "Psychokiller1888",
-	"maintainers": [
-		"maxbachmann",
-		"SkyHyperV"
-	],
-	"desc": "Ask for the time, date, day and year",
-	"aliceMinVersion": "1.0.0-a4",
-	"systemRequirements": [],
-	"pipRequirements": ["Babel"],
-	"conditions": {
-		"lang": [
-			"en",
-			"fr",
-			"de"
-		]
-	}
-}
->>>>>>> Stashed changes
