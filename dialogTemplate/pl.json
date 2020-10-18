@@ -1,0 +1,104 @@
+{
+	"skill": "DateDayTimeYear",
+	"slotTypes": [],
+	"intents": [
+		{
+			"name": "GetDay",
+			"enabledByDefault": true,
+			"utterances": [
+				"czy wiesz jak jest dziś dzień",
+				"powiedz mi jaki jest dziś dzień",
+				"jaki dziś mamy dzień",
+				"jaki mamy dziś dzień",
+				"jaki jest dzień tygodnia",
+				"czy możesz mi powiedzieć jaki mamy dzień",
+				"powiedz mi jaki mamy dzień",
+				"który mamy dzień tygodnia",
+				"możesz mi powiedzieć jaki mamy dzień tygodnia",
+				"proszę powiedz mi jaki mamy dzień tygodnia",
+				"powiedz jaki mamy dziś dzień",
+				"jaki dziś dzień",
+				"który dziś dzień",
+				"czy dziś jest poniedziałek",
+				"czy dziś jest wtorek",
+				"czy dziś jest środa",
+				"czy dziś jest czwartek",
+				"czy dziś jest piątek",
+				"czy dziś jest sobota",
+				"czy dziś jest niedziela"
+			],
+			"slots": []
+		},
+		{
+			"name": "GetDate",
+			"enabledByDefault": true,
+			"utterances": [
+				"podaj datę",
+				"podaj bieżącą datę",
+				"czy wiesz jaka dziś data",
+				"który dziś jest",
+				"czy możesz mi powiedzieć który dzisiaj jest",
+				"powiedz mi dzisiejszą datę",
+				"jaką mamy dziś datę",
+				"powiedz mi proszę jaką mamy datę",
+				"proszę powiedz mi jaka jest dzisiejsza data",
+				"powiedz mi proszę datę",
+				"czy możesz mi powiedzieć jaka jest dzisiejsza data",
+				"proszę powiedz jaką mamy datę",
+				"powiedz mi jaką mamy datę proszę",
+				"powiedz mi jaką mamy dziś datę",
+				"powiedz mi który dzisiaj jest",
+				"jaka jest dzisiejsza data",
+				"który dziś dzień",
+				"który dziś dzień miesiąca",
+				"który mamy dzień miesiąca",
+				"podaj dzisiejszą datę"
+			],
+			"slots": []
+		},
+		{
+			"name": "GetTime",
+			"enabledByDefault": true,
+			"utterances": [
+				"podaj bieżący czas",
+				"która godzina",
+				"czy możesz mi powiedzieć która godzina",
+				"czy mogę cię zapytać o godzinę",
+				"powiedz mi proszę która godzina",
+				"powiedz mi proszę jaki mamy czas",
+				"czy mógłbyś mi powiedzieć która godzina",
+				"czy jest już późno",
+				"czy jest późno",
+				"poproszę o czas",
+				"podaj czas proszę",
+				"podaj mi bieżący czas",
+				"powiedz mi która jest godzina",
+				"jaką mamy godzinę",
+				"podaj aktualny czas",
+				"zdradź mi która jest godzina",
+				"która jest godzine",
+				"jaki mamy czas",
+				"proszę powiedz mi która jest godzina"
+			],
+			"slots": []
+		},
+		{
+			"name": "GetYear",
+			"enabledByDefault": true,
+			"utterances": [
+				"podaj bieżący rok",
+				"jaki mamy rok",
+				"czy możesz mi powiedzieć który mamy rok",
+				"czy mógłbyś mi powiedzieć który mamy rok",
+				"zdradź mi jaki mamy rok",
+				"powiedz jaki mamy rok",
+				"powiedz proszę jaki mamy rok",
+				"który mamy rok",
+				"w którym roku żyjemy",
+				"podaj obecny rok",
+				"podaj bieżący rok proszę"
+			],
+			"slots": []
+		}
+	]
+}
