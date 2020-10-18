@@ -1,0 +1,29 @@
+{
+	"time": {
+		"default": [
+			"Jest godzina {}",
+			"Jest {}"
+		],
+		"short": [
+			"{}"
+		]
+	},
+	"date": {
+		"default": [
+			"Dziś jest {}"
+		],
+		"short": [
+			"{}"
+		]
+	},
+	"day": {
+		"default": [
+			"Dziś jest {}"
+		]
+	},
+	"year": {
+		"default": [
+			"{}"
+		]
+	}
+}
