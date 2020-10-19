@@ -1,22 +1,10 @@
-{
-	"GetDay": [
-		"tell me what day it is",
-		"what is the day",
-		"what's the day"
-	],
-	"GetDate": [
-		"what is the date",
-		"tell me the date",
-		"what date are we"
-	],
-	"GetTime": [
-		"what time is it",
-		"time please",
-		"tell me the time"
-	],
-	"GetYear":  [
-		"what's the year",
-		"what year are we in",
-		"give me the year"
-	]
-}
+[
+	"what time is it",
+	"what's the date",
+	"what is the year",
+	"what is the day",
+	"tell me the time",
+	"tell me the date",
+	"time",
+	"date"
+]
