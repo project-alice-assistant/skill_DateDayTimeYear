@@ -1,7 +1,7 @@
 {
     "name": "DateDayTimeYear",
     "speakableName": "date time functions",
-    "version": "1.0.30",
+    "version": "1.0.31",
     "icon": "far fa-clock",
     "category": "assistance",
     "author": "Psychokiller1888",
