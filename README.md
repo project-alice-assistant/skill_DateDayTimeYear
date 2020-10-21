@@ -10,3 +10,4 @@ Ask for the time, date, day and year
 - Maintainers:
   - maxbachmann
   - SkyHyperV
+  - ChrisB85
