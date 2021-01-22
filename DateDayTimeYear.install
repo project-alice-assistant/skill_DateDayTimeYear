@@ -1,7 +1,7 @@
 {
     "name": "DateDayTimeYear",
     "speakableName": "date time functions",
-    "version": "1.0.31",
+    "version": "1.0.32",
     "icon": "far fa-clock",
     "category": "assistance",
     "author": "Psychokiller1888",
@@ -10,7 +10,7 @@
         "SkyHyperV"
     ],
     "desc": "Ask for the time, date, day and year",
-    "aliceMinVersion": "1.0.0-b3",
+    "aliceMinVersion": "1.0.0-b5",
     "systemRequirements": [],
     "pipRequirements": [
         "Babel"
