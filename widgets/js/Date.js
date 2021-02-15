@@ -1,7 +1,6 @@
-class DateDayTimeYear_Date {
-	constructor(uid) {
-		this.uid = uid;
-		this.div = document.querySelector(`[data-ref="DateDayTimeYear_date_${this.uid}"]`);
+class DateDayTimeYear_Date extends Widget{
+	constructor(uid, widgetId) {
+		super(uid, widgetId);
 		this.dateUpdate();
 	}
 
@@ -10,7 +9,7 @@ class DateDayTimeYear_Date {
 		const d = String(today.getDate()).padStart(2, '0');
 		const m = String(today.getMonth() + 1).padStart(2, '0');
 		const y = String(today.getFullYear());
-		this.div.innerHTML = `${d}.${m}.${y}`;
+		this.myDiv.innerHTML = `${d}.${m}.${y}`;
 		setTimeout(this.dateUpdate.bind(this), 10000);
 	}
 }
