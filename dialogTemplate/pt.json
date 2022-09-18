@@ -1,0 +1,99 @@
+{
+	"skill": "DateDayTimeYear",
+	"slotTypes": [],
+	"intents": [
+		{
+			"name": "GetDay",
+			"enabledByDefault": true,
+			"utterances": [
+				"Você sabe que dia é hoje",
+				"Você pode me dizer que dia é por favor",
+				"você pode me dizer que dia é hoje",
+				"você pode por favor me dizer que dia é hoje",
+				"por favor você poderia me dizer o dia",
+				"você poderia me dizer o dia por favor",
+				"você poderia por favor me dizer o dia",
+				"você poderia me dizer o dia",
+				"por favor você pode me dizer o dia",
+				"você pode me dizer o dia por favor",
+				"você pode me dizer o dia",
+				"que dia é hoje por favor",
+				"por favor, que dia é hoje",
+				"que dia é hoje",
+				"que dia da semana estamos",
+				"em que dia da semana estamos",
+				"qual o dia da semana",
+				"qual dia da semana por favor",
+				"por favor qual o dia da semana",
+				"que dia é",
+				"qual é o dia",
+				"que dia estamos"
+			],
+			"slots": []
+		},
+		{
+			"name": "GetDate",
+			"enabledByDefault": true,
+			"utterances": [
+				"você sabe qual é a data de hoje",
+				"você sabe qual é a data",
+				"em que data estamos",
+				"por favor qual é o dia",
+				"por favor você poderia me dizer a data",
+				"você poderia me dizer a data por favor",
+				"por favor me diga a data",
+				"você pode me dizer a data",
+				"você poderia me dizer a data",
+				"qual é a data por favor",
+				"por favor me dê a data",
+				"que dia é hoje",
+				"qual é a data de hoje",
+				"me diga a data por favor",
+				"qual é a data"
+			],
+			"slots": []
+		},
+		{
+			"name": "GetTime",
+			"enabledByDefault": true,
+			"utterances": [
+				"por favor me dê o horário",
+				"por favor me diga o horário",
+				"por favor, posso perguntar a hora",
+				"posso te perguntar a hora, por favor",
+				"posso te perguntar a hora",
+				"pode me informar as horas, por favor",
+				"você poderia por favor me dizer as horas",
+				"por favor você poderia me dizer as horas",
+				"você poderia me dizer as horas",
+				"que horas estamos agora",
+				"horário por favor",
+				"Que horas são, por favor",
+				"por favor me diga as horas",
+				"me dê o horário por favor",
+				"me diga que horas são",
+				"me diga as horas",
+				"você pode me dizer que horas são",
+				"que horas são",
+				"qual a hora"
+			],
+			"slots": []
+		},
+		{
+			"name": "GetYear",
+			"enabledByDefault": true,
+			"utterances": [
+				"você pode me dizer o ano",
+				"você pode me dizer o ano por favor",
+				"qual é o ano atual",
+				"você poderia me dizer em que ano estamos",
+				"por favor qual é o ano",
+				"por favor em que ano estamos",
+				"em que ano estamos",
+				"em que ano estamos atualmente",
+				"me dê o ano"
+			],
+			"slots": []
+		}
+	]
+}
